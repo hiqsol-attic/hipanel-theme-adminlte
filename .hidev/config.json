@@ -44,7 +44,8 @@
     },
     "composer.json": {
         "require": {
-            "hiqdev/yii2-thememanager":   "*@dev"
+            "hiqdev/yii2-thememanager": "*@dev",
+            "bower-asset/admin-lte":    "2.*"
         },
         "autoload": {
             "psr-4": {
