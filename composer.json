@@ -52,5 +52,11 @@
         "psr-4": {
             "hipanel\\themes\\adminlte2\\": ""
         }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "npm-asset-library": "vendor/bower"
+        }
     }
 }
