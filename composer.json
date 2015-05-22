@@ -45,11 +45,18 @@
     ],
     "require": {
         "hiqdev/yii2-thememanager": "*@dev",
-        "bower-asset/admin-lte": "2.*"
+        "bower-asset/admin-lte": "2.*",
+        "npm-asset/select2-bootstrap-css": "dev-bootstrap3"
     },
     "autoload": {
         "psr-4": {
             "hipanel\\themes\\adminlte2\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
         }
     }
 }
