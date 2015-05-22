@@ -26,6 +26,6 @@ class AdminLteAsset extends \yii\web\AssetBundle
         'yii\bootstrap\BootstrapAsset',
         'yii\bootstrap\BootstrapPluginAsset',
         'frontend\assets\AppAsset',
-        'hiqdev\yii2-asset-select2-bootstrap-css\Asset'
+        'hiqdev\assets\select2-bootstrap-css\Asset'
     ];
 }
