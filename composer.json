@@ -45,8 +45,7 @@
     ],
     "require": {
         "hiqdev/yii2-thememanager": "*@dev",
-        "bower-asset/admin-lte": "2.*",
-        "npm-asset/select2-bootstrap-css": "*"
+        "bower-asset/admin-lte": "2.*"
     },
     "autoload": {
         "psr-4": {

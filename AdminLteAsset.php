@@ -15,7 +15,6 @@ class AdminLteAsset extends \yii\web\AssetBundle
         'https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css',
         'dist/css/AdminLTE.css',
         'dist/css/skins/_all-skins.css',
-
     ];
     public $js = [
         'plugins/slimScroll/jquery.slimscroll.min.js',
@@ -27,5 +26,6 @@ class AdminLteAsset extends \yii\web\AssetBundle
         'yii\bootstrap\BootstrapAsset',
         'yii\bootstrap\BootstrapPluginAsset',
         'frontend\assets\AppAsset',
+        'hiqdev\yii2-select2-bootstrap-css-asset\Asset'
     ];
 }
