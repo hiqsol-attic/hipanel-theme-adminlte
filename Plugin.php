@@ -1,18 +1,18 @@
 <?php
 /**
- * @link    http://hiqdev.com/hipanel-theme-adminlte2
- * @license http://hiqdev.com/hipanel-theme-adminlte2/license
+ * @link    http://hiqdev.com/hipanel-theme-adminlte
+ * @license http://hiqdev.com/hipanel-theme-adminlt2/license
  * @copyright Copyright (c) 2015 HiQDev
  */
 
-namespace hipanel\themes\adminlte2;
+namespace hipanel\themes\adminlte;
 
 class Plugin extends \hiqdev\pluginmanager\Plugin
 {
     protected $_items = [
         'themes' => [
-            'adminlte2' => [
-                'class' => 'hipanel\themes\adminlte2\Theme',
+            'adminlte' => [
+                'class' => 'hipanel\themes\adminlte\Theme',
             ],
         ],
     ];

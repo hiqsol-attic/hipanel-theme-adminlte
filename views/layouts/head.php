@@ -4,9 +4,10 @@
  * Head layout.
  */
 
-use hipanel\themes\adminlte2\AdminLteAsset;
+use hipanel\themes\adminlte\AdminLteAsset;
 use yii\helpers\Html;
 use yii\helpers\Url;
+
 ?>
 <title><?= Html::encode($this->title); ?></title>
 <?= Html::csrfMetaTags(); ?>

@@ -1,11 +1,11 @@
 <?php
 /**
- * @link      http://hiqdev.com/hipanel-theme-adminlte2
+ * @link      http://hiqdev.com/hipanel-theme-adminlte
  * @license   BSD 3-clause
  * @copyright Copyright (c) 2015 HiQDev
  */
 
-namespace hipanel\themes\adminlte2;
+namespace hipanel\themes\adminlte;
 
 /**
  * Class for this theme.
