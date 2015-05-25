@@ -1,6 +1,6 @@
 {
     "package": {
-        "name":         "hipanel-theme-adminlte2",
+        "name":         "hipanel-theme-adminlte",
         "title":        "AdminLte Theme for HiPanel",
         "type":         "yii2-extension",
         "features":     "yii2, extension, theme",
@@ -44,9 +44,8 @@
     },
     "composer.json": {
         "require": {
-            "bower-asset/admin-lte":                    "~2.0",
-            "npm-asset/select2-bootstrap-css":          "@dev",
-            "hiqdev/yii2-asset-select2-bootstrap-css":  "~1.4"
+            "hiqdev/yii2-asset-adminlte":               "~2.1",
+            "hiqdev/yii2-asset-select2-bootstrap3-css": "~1.5"
         },
         "autoload": {
             "psr-4": {

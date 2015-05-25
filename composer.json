@@ -1,5 +1,5 @@
 {
-    "name": "hiqdev/hipanel-theme-adminlte2",
+    "name": "hiqdev/hipanel-theme-adminlte",
     "type": "yii2-extension",
     "description": "AdminLte Theme for HiPanel",
     "keywords": [
@@ -8,13 +8,13 @@
         "hipanel",
         "plugin"
     ],
-    "homepage": "https://hiqdev.com/hipanel-theme-adminlte2",
+    "homepage": "https://hiqdev.com/hipanel-theme-adminlte",
     "license": "BSD-3-Clause",
     "support": {
         "email": "support@hiqdev.com",
-        "source": "https://github.com/hiqdev/hipanel-theme-adminlte2",
-        "issues": "https://github.com/hiqdev/hipanel-theme-adminlte2/issues",
-        "wiki": "https://github.com/hiqdev/hipanel-theme-adminlte2/wiki",
+        "source": "https://github.com/hiqdev/hipanel-theme-adminlte",
+        "issues": "https://github.com/hiqdev/hipanel-theme-adminlte/issues",
+        "wiki": "https://github.com/hiqdev/hipanel-theme-adminlte/wiki",
         "forum": "https://forum.hiqdev.com/hipanel"
     },
     "authors": [
@@ -44,8 +44,8 @@
         }
     ],
     "require": {
-        "bower-asset/admin-lte": "~2.0",
-        "hiqdev/yii2-asset-select2-bootstrap3-css": "~1.4"
+        "hiqdev/yii2-asset-adminlte": "~2.1",
+        "hiqdev/yii2-asset-select2-bootstrap3-css": "~1.5"
     },
     "autoload": {
         "psr-4": {
