@@ -1,7 +1,7 @@
 <?php
 /**
- * @link    http://hiqdev.com/hipanel-theme-adminlte2
- * @license http://hiqdev.com/hipanel-theme-adminlte2/license
+ * @link      http://hiqdev.com/hipanel-theme-adminlte2
+ * @license   BSD 3-clause
  * @copyright Copyright (c) 2015 HiQDev
  */
 
