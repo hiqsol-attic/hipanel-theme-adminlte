@@ -9,8 +9,9 @@ namespace hipanel\themes\adminlte;
 
 /**
  * Class for this theme.
- * It's empty cause inheritance is quite enough.
+ * It's empty cause inheritance does all the tricks.
  */
-class Theme extends \hiqdev\thememanager\Theme
+class Theme extends \hiqdev\themes\adminlte\Theme
 {
+    public $label = 'AdminLte v2';
 }

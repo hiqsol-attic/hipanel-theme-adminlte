@@ -1,9 +1,4 @@
 <?php
-/**
- * @link    http://hiqdev.com/hipanel
- * @license http://hiqdev.com/hipanel/license
- * @copyright Copyright (c) 2015 HiQDev
- */
 
 /**
  * Theme main layout.
@@ -12,7 +7,6 @@
  * @var string $content Content
  */
 
-use common\models\Skin;
 use Yii;
 use yii\helpers\Html;
 use yii\widgets\Breadcrumbs;
@@ -21,18 +15,18 @@ use hipanel\widgets\Alert;
 ?>
 <?php $this->beginPage(); ?>
 <!DOCTYPE html>
-<html>
+<html lang="<?= Yii::$app->language ?>">
 <head>
     <?= $this->render('//layouts/head') ?>
 </head>
-<!-- ADD THE CLASS fixed TO GET A FIXED HEADER AND SIDEBAR LAYOUT -->
-<body class="sidebar-mini <?= Skin::layoutClass(); ?> <?= Skin::sidebarClass(); ?> <?= Skin::skinClass(); ?>">
+<body class="sidebar-mini <?= $this->bodyClasses ?>">
 <?php $this->beginBody(); ?>
 <!-- Site wrapper -->
 <div class="wrapper">
 
+    <!-- header logo: style can be found in header.less -->
     <header class="main-header">
-        <a href="<?= Yii::$app->homeUrl; ?>" class="logo">
+        <a href="<?= Yii::$app->homeUrl ?>" class="logo">
             <span class="logo-mini"><b>Hi</b>P</span>
             <span class="logo-lg"><b>Hi</b>Panel</span>
         </a>
@@ -64,7 +58,7 @@ use hipanel\widgets\Alert;
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
-                <?= $this->title; ?>
+                <?= $this->title ?>
                 <?php if (isset($this->subtitle)) : ?>
                     <small><?= $this->subtitle ?></small>
                 <?php endif; ?>
@@ -81,14 +75,10 @@ use hipanel\widgets\Alert;
         </section>
 
         <!-- Main content -->
-        <section class="content container-fluid">
-            <div class="row">
-                <div class="col-md-12">
-                    <?= Alert::widget(); ?>
-                    <?= $content ?>
-                </div>
-            </div>
-        </section>
+        <section class="content container-fluid"><div class="row"><div class="col-md-12">
+            <?= Alert::widget(); ?>
+            <?= $content ?>
+        </div></div></section>
     </div><!-- /.content-wrapper -->
 
     <footer class="main-footer">
