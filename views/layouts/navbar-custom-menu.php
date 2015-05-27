@@ -102,7 +102,7 @@ use yii\helpers\Html;
             <!-- Menu Body -->
             <li class="user-body">
                 <div class="col-xs-4 text-center">
-                    <?= Html::a(\Yii::t('app', 'Layout Options'), ['/skin/index']); ?>
+                    <?= Html::a(\Yii::t('app', 'Theme Settings'), ['/thememanager/settings']); ?>
                 </div>
                 <div class="col-xs-4 text-center">
                     <?= Html::a(\Yii::t('app', 'Recharge account'), []); ?>
