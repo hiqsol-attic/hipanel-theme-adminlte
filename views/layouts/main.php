@@ -11,7 +11,17 @@ use Yii;
 use yii\helpers\Html;
 use yii\widgets\Breadcrumbs;
 use hipanel\widgets\Alert;
-
+// Collapse Side bar
+$this->registerJs(<<<'JS'
+$(".sidebar-toggle").on("click", function() {
+    var collapsed_sidebar = 1;
+    if ($('body').hasClass('sidebar-collapse')) {
+        collapsed_sidebar = 0;
+    }
+    $.post( "/thememanager/settings/collapsed-sidebar", {collapsed_sidebar: collapsed_sidebar});
+});
+JS
+);
 ?>
 <?php $this->beginPage(); ?>
 <!DOCTYPE html>
