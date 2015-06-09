@@ -32,6 +32,7 @@ hiqdev/hipanel-theme-adminlte commits history
     - b7a016b 2015-05-20 hideved (sol@hiqdev.com)
     - ced9a09 2015-05-20 inited (sol@hiqdev.com)
     - bebd4e7 2015-05-20 inited (sol@hiqdev.com)
+    - a7cd0c3 2015-06-09 hideved (sol@hiqdev.com)
 
 ## Development started May 20, 2015
 

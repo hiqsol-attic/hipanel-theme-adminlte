@@ -6,7 +6,6 @@ package:
     namespace:      hipanel\themes\adminlte
     title:          AdminLte Theme for HiPanel
     type:           yii2-extension
-    forum:          https://forum.hiqdev.com/hipanel
     keywords:       adminlte, theme, hipanel, plugin
     year:           2014
 
