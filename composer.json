@@ -8,7 +8,7 @@
         "hipanel",
         "plugin"
     ],
-    "homepage": "https://hiqdev.com/hipanel-theme-adminlte",
+    "homepage": "https://github.com/hiqdev/hipanel-theme-adminlte",
     "license": "BSD-3-Clause",
     "support": {
         "email": "support@hiqdev.com",
@@ -45,7 +45,7 @@
     ],
     "require": {
         "hiqdev/yii2-theme-adminlte": "*@dev",
-        "hiqdev/yii2-asset-select2-bootstrap3-css": "~1.5"
+        "hiqdev/yii2-asset-hipanel": "~1.5"
     },
     "autoload": {
         "psr-4": {

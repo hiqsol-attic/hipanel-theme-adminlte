@@ -3,6 +3,7 @@ hiqdev/hipanel-theme-adminlte commits history
 
 ## Under development
 
+    - de6b588 2015-06-11 + assets/css/hipanel.php (sol@hiqdev.com)
     - 9c8c9e5 2015-06-03 Some Js fix (andreyklochok@gmail.com)
     - fa7ba29 2015-06-03 Add js that collapse sidabar (andreyklochok@gmail.com)
     - d2a9555 2015-05-27 * link to theme manager (sol@hiqdev.com)
