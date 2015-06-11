@@ -45,7 +45,7 @@
     ],
     "require": {
         "hiqdev/yii2-theme-adminlte": "*@dev",
-        "hiqdev/yii2-asset-hipanel": "~1.5"
+        "hiqdev/yii2-asset-hipanel": "*@dev"
     },
     "autoload": {
         "psr-4": {

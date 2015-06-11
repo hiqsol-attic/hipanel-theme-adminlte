@@ -12,7 +12,7 @@ package:
 composer.json:
     require:
         hiqdev/yii2-theme-adminlte:     "*@dev"
-        hiqdev/yii2-asset-hipanel:      "~1.5"
+        hiqdev/yii2-asset-hipanel:      "*@dev"
     extra:
         asset-installer-paths:
             npm-asset-library:          vendor/npm
