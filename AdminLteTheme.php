@@ -11,7 +11,13 @@ namespace hipanel\themes\adminlte;
  * Class for this theme.
  * It's empty cause inheritance does all the tricks.
  */
-class Theme extends \hiqdev\themes\adminlte\Theme
+class AdminLteTheme extends \hiqdev\themes\adminlte\Theme
 {
     public $label = 'AdminLte v2';
+
+    public $assets = [
+        'frontend\assets\AppAsset',
+        'hiqdev\assets\adminlte\AdminLteAsset',
+        'hipanel\themes\adminlte\HipanelAsset',
+    ];
 }

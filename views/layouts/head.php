@@ -4,7 +4,6 @@
  * Head layout.
  */
 
-use hipanel\themes\adminlte\AdminLteAsset;
 use yii\helpers\Html;
 use yii\helpers\Url;
 
@@ -21,7 +20,7 @@ use yii\helpers\Url;
 
 <?php
 $this->head();
-AdminLteAsset::register($this);
+$this->manager->theme->registerAssets();
 
 $this->registerMetaTag(
     [

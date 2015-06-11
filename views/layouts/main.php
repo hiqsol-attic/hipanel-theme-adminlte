@@ -34,8 +34,8 @@ JS
     <!-- header logo: style can be found in header.less -->
     <header class="main-header">
         <a href="<?= Yii::$app->homeUrl ?>" class="logo">
-            <span class="logo-mini"><b>Hi</b>P</span>
-            <span class="logo-lg"><b>Hi</b>Panel</span>
+            <span class="logo-mini">&nbsp;</span>
+            <span class="logo-lg">&nbsp;</span>
         </a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top" role="navigation">
