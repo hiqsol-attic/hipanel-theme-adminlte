@@ -15,7 +15,6 @@ class AdminLteTheme extends \hiqdev\themes\adminlte\Theme
     public $label = 'AdminLte v2';
 
     public $assets = [
-        'frontend\assets\AppAsset',
         'hiqdev\assets\adminlte\AdminLteAsset',
         'hipanel\themes\adminlte\HipanelAsset',
     ];

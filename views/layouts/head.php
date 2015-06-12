@@ -20,7 +20,7 @@ use yii\helpers\Url;
 
 <?php
 $this->head();
-$this->manager->theme->registerAssets();
+$this->manager->registerAssets();
 
 $this->registerMetaTag(
     [
