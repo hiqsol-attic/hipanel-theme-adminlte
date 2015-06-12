@@ -3,6 +3,8 @@ hiqdev/hipanel-theme-adminlte commits history
 
 ## Under development
 
+    - 07c1902 2015-06-12 used ThemeManger->registerAssets() (sol@hiqdev.com)
+    - 362a412 2015-06-11 fixed require hiqdev/yii2-asset-hipanel (sol@hiqdev.com)
     - de6b588 2015-06-11 + assets/css/hipanel.php (sol@hiqdev.com)
     - 9c8c9e5 2015-06-03 Some Js fix (andreyklochok@gmail.com)
     - fa7ba29 2015-06-03 Add js that collapse sidabar (andreyklochok@gmail.com)
