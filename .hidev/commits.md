@@ -3,6 +3,8 @@ hiqdev/hipanel-theme-adminlte commits history
 
 ## Under development
 
+- improved with use of latest ThemeManager features
+    - 81a1fb9 2015-06-12 views/layouts/head.php moved to yii2-theme-adminlte (sol@hiqdev.com)
     - 07c1902 2015-06-12 used ThemeManger->registerAssets() (sol@hiqdev.com)
     - 362a412 2015-06-11 fixed require hiqdev/yii2-asset-hipanel (sol@hiqdev.com)
     - de6b588 2015-06-11 + assets/css/hipanel.php (sol@hiqdev.com)
@@ -32,6 +34,7 @@ hiqdev/hipanel-theme-adminlte commits history
     - 23eee83 2015-05-22 Playing with composer.json (d.naumenko.a@gmail.com)
     - edc24f4 2015-05-22 Playing with composer.json (d.naumenko.a@gmail.com)
     - 8a1f32b 2015-05-21 - hipanel views (sol@hiqdev.com)
+- inited
     - b7a016b 2015-05-20 hideved (sol@hiqdev.com)
     - ced9a09 2015-05-20 inited (sol@hiqdev.com)
     - bebd4e7 2015-05-20 inited (sol@hiqdev.com)
