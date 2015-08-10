@@ -1,3 +1,7 @@
+<?php
+use \yii\helpers\Html;
+?>
+
 <ul class="nav navbar-nav">
     <!-- Messages: style can be found in dropdown.less-->
     <?php /*
@@ -30,6 +34,16 @@
     </li>
     */ ?>
     <!-- Notifications: style can be found in dropdown.less -->
+    <li class="dropdown language-menu">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <?= strtoupper(substr(Yii::$app->language, 0, 2)) ?>
+        </a>
+        <ul class="dropdown-menu">
+            <li class="header"><?= Html::a(Yii::t('app', 'English'), ['demo/action', 'language'=>'en'], ['class' => Yii::$app->language == 'en-US' ? 'text-bold' : '']) ?></li>
+            <li class="header"><?= Html::a(Yii::t('app', 'Russian'), ['demo/action', 'language'=>'ru'], ['class' => Yii::$app->language == 'ru-RU' ? 'text-bold' : '']) ?></li>
+        </ul>
+    </li>
+    <?php /*
     <li class="dropdown notifications-menu">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
             <i class="fa fa-bell-o"></i>
@@ -81,6 +95,7 @@
             </li>
         </ul>
     </li>
+    */ ?>
     <!-- User Account: style can be found in dropdown.less -->
     <li class="dropdown user user-menu">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
