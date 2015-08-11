@@ -1,5 +1,7 @@
 <?php
 use \yii\helpers\Html;
+use yii\helpers\Url;
+
 ?>
 
 <ul class="nav navbar-nav">
@@ -39,8 +41,8 @@ use \yii\helpers\Html;
             <?= strtoupper(substr(Yii::$app->language, 0, 2)) ?>
         </a>
         <ul class="dropdown-menu">
-            <li class="header"><?= Html::a(Yii::t('app', 'English'), ['demo/action', 'language'=>'en'], ['class' => Yii::$app->language == 'en-US' ? 'text-bold' : '']) ?></li>
-            <li class="header"><?= Html::a(Yii::t('app', 'Russian'), ['demo/action', 'language'=>'ru'], ['class' => Yii::$app->language == 'ru-RU' ? 'text-bold' : '']) ?></li>
+            <li class="header"><?= Html::a(Yii::t('app', 'English'), Url::current(['language'=>'en']), ['class' => mb_stristr(Yii::$app->language, 'en') ? 'text-bold' : '']) ?></li>
+            <li class="header"><?= Html::a(Yii::t('app', 'Russian'), Url::current(['language'=>'ru']), ['class' => mb_stristr(Yii::$app->language, 'ru') ? 'text-bold' : '']) ?></li>
         </ul>
     </li>
     <?php /*
