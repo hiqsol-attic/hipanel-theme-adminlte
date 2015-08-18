@@ -3,6 +3,14 @@ hiqdev/hipanel-theme-adminlte commits history
 
 ## Under development
 
+- Moved to src and php-cs-fixed
+    - a977d7a 2015-08-18 used new hidev features: better .gitignore and README (sol@hiqdev.com)
+- Changed: made this theme disabled by default
+    - f9c7a60 2015-08-18 * made this theme disabled by default (sol@hiqdev.com)
+- Added language switching
+    - 8909ff8 2015-08-11 Add language picker (andreyklochok@gmail.com)
+    - 2b9a249 2015-08-10 Language selections (andreyklochok@gmail.com)
+    - 7cddbf0 2015-07-15 + views/layouts/user-menu.php (sol@hiqdev.com)
 - improved with use of latest ThemeManager features
     - 81a1fb9 2015-06-12 views/layouts/head.php moved to yii2-theme-adminlte (sol@hiqdev.com)
     - 07c1902 2015-06-12 used ThemeManger->registerAssets() (sol@hiqdev.com)
