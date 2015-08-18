@@ -49,7 +49,7 @@
     },
     "autoload": {
         "psr-4": {
-            "hipanel\\themes\\adminlte\\": ""
+            "hipanel\\themes\\adminlte\\": "src"
         }
     },
     "extra": {
