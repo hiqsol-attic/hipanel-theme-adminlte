@@ -1,6 +1,3 @@
-parent:
-    github:         hiqdev/hidev-config
-
 package:
     name:           hipanel-theme-adminlte
     namespace:      hipanel\themes\adminlte
@@ -9,11 +6,6 @@ package:
     keywords:       adminlte, theme, hipanel, plugin
     year:           2014
 
-composer.json:
-    require:
-        hiqdev/yii2-theme-adminlte:     "*@dev"
-        hiqdev/yii2-asset-hipanel:      "*@dev"
-    extra:
-        asset-installer-paths:
-            npm-asset-library:          vendor/npm
-            bower-asset-library:        vendor/bower
+require:
+    hiqdev/hidev-config:        "*"
+    hiqdev/hidev-config-php:    "*"
