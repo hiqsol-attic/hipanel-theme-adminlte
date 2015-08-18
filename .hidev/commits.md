@@ -3,6 +3,8 @@ hiqdev/hipanel-theme-adminlte commits history
 
 ## Under development
 
+- Fixed showing copyright and powered by
+    - de9cece 2015-08-18 Fixed showing copyright and powered by (sol@hiqdev.com)
 - Moved to src and php-cs-fixed
     - ffb100e 2015-08-18 php-cs-fixed (sol@hiqdev.com)
     - 770cbc2 2015-08-18 moved to src (sol@hiqdev.com)
