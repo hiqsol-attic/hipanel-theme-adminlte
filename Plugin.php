@@ -10,7 +10,7 @@ namespace hipanel\themes\adminlte;
 class Plugin extends \hiqdev\pluginmanager\Plugin
 {
     protected $_items = [
-        'themes' => [
+        'disabled_themes' => [
             'adminlte' => [
                 'class' => 'hipanel\themes\adminlte\AdminLteTheme',
             ],
