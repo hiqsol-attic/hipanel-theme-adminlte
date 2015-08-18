@@ -9,6 +9,7 @@
 use hipanel\widgets\Alert;
 use Yii;
 use yii\helpers\Html;
+use yii\helpers\JsonHelper;
 use yii\widgets\Breadcrumbs;
 
 // Collapse Side bar
@@ -90,9 +91,14 @@ JS
 
     <footer class="main-footer">
         <div class="pull-right hidden-xs">
-            <b>Version</b> 1.0
+            <? $version = Yii::$app->extensions['hiqdev/hipanel-core']['version'] ?>
+            <? if ($version=='9999999-dev') {
+                    $v = file_get_contents(Yii::getAlias('@hipanel/../.git/refs/heads/master'));
+                    $version = $v ? substr($v, 0, 7) : $version;
+            } ?>
+            Powered by <a href="https://hipanel.com/">HiPanel</a> version <?= $version ?>
         </div>
-        <strong>Copyright &copy; 2014-2015 <?= Html::a(Yii::$app->name, Yii::$app->homeUrl); ?>.</strong> All rights reserved.
+        <strong>Copyright &copy; 2014-2015 <?= Html::a(Yii::$app->params['orgName'], Yii::$app->params['orgUrl']); ?>.</strong> All rights reserved.
     </footer>
 </div><!-- ./wrapper -->
 <?php $this->endBody(); ?>
