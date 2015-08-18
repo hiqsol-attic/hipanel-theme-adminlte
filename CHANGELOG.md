@@ -6,8 +6,8 @@ hiqdev/hipanel-theme-adminlte changelog
 - Moved to src and php-cs-fixed
 - Changed: made this theme disabled by default
 - Added language switching
-- improved with use of latest ThemeManager features
-- inited
+- Fixed: improved with use of latest ThemeManager features
+- Inited
 
 ## Development started May 20, 2015
 

@@ -4,6 +4,8 @@ hiqdev/hipanel-theme-adminlte commits history
 ## Under development
 
 - Moved to src and php-cs-fixed
+    - ffb100e 2015-08-18 php-cs-fixed (sol@hiqdev.com)
+    - 770cbc2 2015-08-18 moved to src (sol@hiqdev.com)
     - a977d7a 2015-08-18 used new hidev features: better .gitignore and README (sol@hiqdev.com)
 - Changed: made this theme disabled by default
     - f9c7a60 2015-08-18 * made this theme disabled by default (sol@hiqdev.com)
@@ -11,7 +13,7 @@ hiqdev/hipanel-theme-adminlte commits history
     - 8909ff8 2015-08-11 Add language picker (andreyklochok@gmail.com)
     - 2b9a249 2015-08-10 Language selections (andreyklochok@gmail.com)
     - 7cddbf0 2015-07-15 + views/layouts/user-menu.php (sol@hiqdev.com)
-- improved with use of latest ThemeManager features
+- Fixed: improved with use of latest ThemeManager features
     - 81a1fb9 2015-06-12 views/layouts/head.php moved to yii2-theme-adminlte (sol@hiqdev.com)
     - 07c1902 2015-06-12 used ThemeManger->registerAssets() (sol@hiqdev.com)
     - 362a412 2015-06-11 fixed require hiqdev/yii2-asset-hipanel (sol@hiqdev.com)
@@ -42,7 +44,7 @@ hiqdev/hipanel-theme-adminlte commits history
     - 23eee83 2015-05-22 Playing with composer.json (d.naumenko.a@gmail.com)
     - edc24f4 2015-05-22 Playing with composer.json (d.naumenko.a@gmail.com)
     - 8a1f32b 2015-05-21 - hipanel views (sol@hiqdev.com)
-- inited
+- Inited
     - b7a016b 2015-05-20 hideved (sol@hiqdev.com)
     - ced9a09 2015-05-20 inited (sol@hiqdev.com)
     - bebd4e7 2015-05-20 inited (sol@hiqdev.com)
