@@ -1,10 +1,10 @@
 <?php
 /**
  * @link    http://hiqdev.com/hipanel
+ *
  * @license http://hiqdev.com/hipanel/license
  * @copyright Copyright (c) 2015 HiQDev
  */
-
 use hipanel\widgets\Menu;
 use Yii;
 
@@ -15,7 +15,7 @@ use Yii;
         <!-- Sidebar user panel -->
         <div class="user-panel">
             <div class="pull-left image">
-                <?= $this->render('//layouts/gravatar',['size'=>45]); ?>
+                <?= $this->render('//layouts/gravatar', ['size' => 45]); ?>
             </div>
             <div class="pull-left info">
                 <p><?= Yii::$app->user->identity->username ?></p>
@@ -36,7 +36,7 @@ use Yii;
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <?= Menu::widget([
             'options' => [
-                'class' => 'sidebar-menu'
+                'class' => 'sidebar-menu',
             ],
             'items' => Yii::$app->menuManager->sidebar->getItemsArray(),
         ]) ?>

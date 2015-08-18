@@ -3,14 +3,14 @@
 /**
  * Theme main layout.
  *
- * @var frontend\components\View $this View
- * @var string $content Content
+ * @var frontend\components\View View
+ * @var string                   Content
  */
-
+use hipanel\widgets\Alert;
 use Yii;
 use yii\helpers\Html;
 use yii\widgets\Breadcrumbs;
-use hipanel\widgets\Alert;
+
 // Collapse Side bar
 $this->registerJs(<<<'JS'
 $(".sidebar-toggle").on("click", function() {
@@ -73,11 +73,11 @@ JS
             <?= Breadcrumbs::widget([
                 'homeLink' => [
                     'label' => '<i class="fa fa-dashboard"></i> ' . Yii::t('app', 'Home'),
-                    'url' => '/'
+                    'url'   => '/',
                 ],
                 'encodeLabels' => false,
-                'tag' => 'ol',
-                'links' => $this->breadcrumbs->getItemsArray(),
+                'tag'          => 'ol',
+                'links'        => $this->breadcrumbs->getItemsArray(),
             ]) ?>
         </section>
 
