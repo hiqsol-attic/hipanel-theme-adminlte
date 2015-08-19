@@ -19,10 +19,10 @@ use yii\helpers\Html;
             <?= Html::a(Yii::t('app', 'Theme Settings'), ['/thememanager/settings']); ?>
         </div>
         <div class="col-xs-4 text-center">
-            <?= Html::a(Yii::t('app', 'Recharge account'), []); ?>
+            <?= Html::a(Yii::t('app', 'Recharge Account'), []); ?>
         </div>
         <div class="col-xs-4 text-center">
-            <?= Html::a(Yii::t('app', 'Add New Ticket'), ['@ticket/create']); ?>
+            <?= Html::a(Yii::t('app', 'Create Ticket'), ['@ticket/create']); ?>
         </div>
     </li>
     <!-- Menu Footer-->
