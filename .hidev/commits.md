@@ -4,6 +4,7 @@ hiqdev/hipanel-theme-adminlte commits history
 ## Under development
 
 - Fixed links at user menu
+    - e768e82 2015-08-19 fixed link to Recharge Account (sol@hiqdev.com)
     - e07ef66 2015-08-19 improved text for links (sol@hiqdev.com)
     - ab8e137 2015-08-19 fixed links at user menu (sol@hiqdev.com)
 - Fixed showing copyright and powered by
