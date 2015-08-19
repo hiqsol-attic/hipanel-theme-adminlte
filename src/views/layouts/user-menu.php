@@ -1,5 +1,6 @@
 <?php
 
+use Yii;
 use yii\helpers\Html;
 
 ?>
@@ -8,29 +9,29 @@ use yii\helpers\Html;
     <li class="user-header">
         <?= $this->render('//layouts/gravatar', ['size' => 90]); ?>
         <p>
-            <?= \Yii::$app->user->identity->username; ?> - <?= \Yii::$app->user->identity->type; ?>
+            <?= Yii::$app->user->identity->username; ?> - <?= Yii::$app->user->identity->type; ?>
             <small>Member since Nov. 2014</small>
         </p>
     </li>
     <!-- Menu Body -->
     <li class="user-body">
         <div class="col-xs-4 text-center">
-            <?= Html::a(\Yii::t('app', 'Theme Settings'), ['/thememanager/settings']); ?>
+            <?= Html::a(Yii::t('app', 'Theme Settings'), ['/thememanager/settings']); ?>
         </div>
         <div class="col-xs-4 text-center">
-            <?= Html::a(\Yii::t('app', 'Recharge account'), []); ?>
+            <?= Html::a(Yii::t('app', 'Recharge account'), []); ?>
         </div>
         <div class="col-xs-4 text-center">
-            <?= Html::a(\Yii::t('app', 'Add New Ticket'), []); ?>
+            <?= Html::a(Yii::t('app', 'Add New Ticket'), ['@ticket/create']); ?>
         </div>
     </li>
     <!-- Menu Footer-->
     <li class="user-footer">
         <div class="pull-left">
-            <?= Html::a(\Yii::t('app', 'Profile'), ['/logout'], ['class' => 'btn btn-default btn-flat']); ?>
+            <?= Html::a(Yii::t('app', 'Profile'), ['/site/profile'], ['class' => 'btn btn-default btn-flat']); ?>
         </div>
         <div class="pull-right">
-            <?= Html::a(\Yii::t('app', 'Sign out'), ['/site/logout'], ['class' => 'btn btn-default btn-flat']); ?>
+            <?= Html::a(Yii::t('app', 'Sign out'), ['/site/logout'], ['class' => 'btn btn-default btn-flat']); ?>
         </div>
     </li>
 </ul>
