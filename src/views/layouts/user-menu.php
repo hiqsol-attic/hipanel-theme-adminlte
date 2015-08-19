@@ -9,7 +9,10 @@ use yii\helpers\Html;
     <li class="user-header">
         <?= $this->render('//layouts/gravatar', ['size' => 90]); ?>
         <p>
-            <?= Yii::$app->user->identity->username; ?> - <?= Yii::$app->user->identity->type; ?>
+            <?= Yii::$app->user->identity->username; ?>
+            <? if (Yii::$app->user->can('support')) { ?>
+                - <?= Yii::$app->user->identity->type; ?>
+            <? } ?>
             <small>Member since Nov. 2014</small>
         </p>
     </li>
@@ -19,7 +22,7 @@ use yii\helpers\Html;
             <?= Html::a(Yii::t('app', 'Theme Settings'), ['/thememanager/settings']); ?>
         </div>
         <div class="col-xs-4 text-center">
-            <?= Html::a(Yii::t('app', 'Recharge Account'), []); ?>
+            <?= Html::a(Yii::t('app', 'Recharge Account'), ['@bill/deposit']); ?>
         </div>
         <div class="col-xs-4 text-center">
             <?= Html::a(Yii::t('app', 'Create Ticket'), ['@ticket/create']); ?>
