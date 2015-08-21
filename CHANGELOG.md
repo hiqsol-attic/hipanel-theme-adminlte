@@ -3,6 +3,7 @@ hiqdev/hipanel-theme-adminlte changelog
 
 ## Under development
 
+- Changed to require stable yii2-asset-hipanel
 - Fixed links at user menu
 - Fixed showing copyright and powered by
 - Moved to src and php-cs-fixed

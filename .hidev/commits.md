@@ -3,6 +3,8 @@ hiqdev/hipanel-theme-adminlte commits history
 
 ## Under development
 
+- Changed to require stable yii2-asset-hipanel
+    - 7b4af18 2015-08-21 * require stable yii2-asset-hipanel (sol@hiqdev.com)
 - Fixed links at user menu
     - e768e82 2015-08-19 fixed link to Recharge Account (sol@hiqdev.com)
     - e07ef66 2015-08-19 improved text for links (sol@hiqdev.com)
